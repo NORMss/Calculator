@@ -198,7 +198,7 @@ fun Calculator(
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
-                        onAction(CalculatorAction.Number(7))
+                        onAction(CalculatorAction.Number(8))
                     }
                 )
                 OperationButton(
@@ -208,7 +208,7 @@ fun Calculator(
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
-                        onAction(CalculatorAction.Number(7))
+                        onAction(CalculatorAction.Number(9))
                     }
                 )
                 OperationButton(
